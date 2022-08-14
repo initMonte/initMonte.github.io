@@ -1,0 +1,342 @@
+/* Variables */
+:root {
+    --colorPink100: #E92A7E;
+    --colorPink50: #E92A7E50;
+    --colorPink07: #E92A7E07;
+    --colorCyan100: #4fc3dc;
+    --colorCyan50: #4fc3dc50;
+    --colorCyan07: #4fc3dc07;
+}
+
+/* All */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: var(--colorCyan100);
+}
+
+.span-pink {
+    color: var(--colorPink100);
+}
+
+/* Body */
+
+body {
+    background-color: #131744;
+    width: 100vw;
+}
+
+.toHideOverflowOnMobile{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.allContainer {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    margin: 50px 10%;
+    width: 80%;
+    backdrop-filter: blur(4px);
+    background-color: var(--colorPink07);
+    box-shadow: 0 15px 35px #00000020;
+    border-radius: 20px;
+    border: 2px solid var(--colorPink50);
+    border-top: 4px solid var(--colorPink50);
+    border-left: 4px solid var(--colorPink50);
+}
+
+/* Bubbles */
+
+.bubbles {
+    position: fixed;
+    display: flex;
+    width: 108%;
+    height: 125vh;
+    justify-content: space-between;
+    z-index: -2;
+}
+
+.bubbles span {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+.bubbles span:nth-child(odd) {
+    background: var(--colorCyan100);
+    box-shadow: 0 0 10px 0.4em var(--colorCyan50),
+        0 0 5em var(--colorCyan100),
+        0 0 10em var(--colorCyan100);
+    animation: bubbleShrink 15s linear infinite;
+    animation-duration: calc(300s/var(--i));
+}
+
+.bubbles span:nth-child(even) {
+
+    background: var(--colorPink100);
+    box-shadow: 0 0 10px 0.4em var(--colorPink50),
+        0 0 5em var(--colorPink100),
+        0 0 10em var(--colorPink100);
+    animation: bubbleGrow 15s linear infinite;
+    animation-duration: calc(300s/var(--i));
+}
+
+@keyframes bubbleGrow {
+    0% {
+        transform: translateY(100vh) scale(0.1);
+    }
+
+    50% {
+        transform: translateY(50vh) scale(1);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(0.1);
+    }
+}
+
+@keyframes bubbleShrink {
+    0% {
+        transform: translateY(100vh) scale(1);
+    }
+
+    50% {
+        transform: translateY(50vh) scale(0.1);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+/* Blobs */
+
+.blobs {
+    position: absolute;
+}
+
+.blob1 {
+    margin: 10vh 70vw;
+    width: 400px;
+    height: 60%;
+    z-index: -1;
+    background-color: #99298D50;
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+}
+
+.blob2 {
+    margin: 145vh 27vw;
+    width: 400px;
+    height: 60%;
+    z-index: -1;
+    background-color: #E92A7E75;
+    border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+}
+
+.blob3 {
+    margin: 70vh 25vw;
+    width: 200px;
+    height: 30%;
+    z-index: -1;
+    background-color: #99298D50;
+    border-radius: 21% 79% 38% 62% / 68% 60% 40% 32%;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+    background-color: #ff00ff07;
+    width: 70vw;
+    height: fit-content;
+    margin: 50px -10vw;
+    padding: 50px 10vw 50px 10vw;
+    backdrop-filter: blur(4px);
+    background-color: var(--colorCyan07);
+    box-shadow: 0 15px 35px #00000020;
+    border-radius: 20px;
+    border: 2px solid var(--colorCyan50);
+    border-top: 4px solid var(--colorCyan50);
+    border-left: 4px solid var(--colorCyan50);
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero span {
+    color: #E92A7E;
+}
+
+.hero h3 {
+    margin: 10px 0 40px;
+    font-size: 1.25em;
+    color: var(--colorPink100);
+}
+
+.hero p {
+    margin: 10px 0 10px;
+}
+
+.hero .button {
+    display: flex;
+    width: fit-content;
+    margin: 30px 0 0;
+    border-radius: 20px;
+    background-color: var(--colorPink100);
+}
+
+.hero a {
+    padding: 0 0.5em;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.hero .button:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+/* Skills */
+
+.skills {
+    position: relative;
+    justify-self: center;
+    width: 65vw;
+    height: fit-content;
+    margin: 0px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.skills-ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.skills-li {
+    padding: 20px;
+    margin: 0 15px 15px;
+    background-color: #00000050;
+    border-radius: 50% 50% 50% 50% / 10% 10% 90% 90%;
+    border: 2px solid var(--colorCyan50);
+    border-top: 4px solid var(--colorCyan50);
+    border-left: 4px solid var(--colorCyan50);
+}
+
+.skills-li:hover {
+    transform: scale(1.2);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+
+/* Proyects */
+
+.proyects {
+    position: relative;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff00ff07;
+    width: 70vw;
+    height: fit-content;
+    margin: 50px 15%;
+    padding: 50px 10vw 50px 10vw;
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    backdrop-filter: blur(4px);
+    background-color: var(--colorCyan07);
+    box-shadow: 0 15px 35px #00000020;
+    border-radius: 20px;
+    border: 2px solid var(--colorCyan50);
+    border-top: 4px solid var(--colorCyan50);
+    border-left: 4px solid var(--colorCyan50);
+}
+
+.proyects h2 {
+    margin: 0 0 40px;
+}
+
+.proyects p {
+    margin: 0 0 20px;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    display: grid;
+    width: 113%;
+    background-color: var(--colorCyan50);
+    border-radius: 0 0 20px 20px;
+    border: 4px solid var(--colorCyan07);
+    justify-self: center;
+    align-self: flex-end;
+}
+
+footer h3 {
+    justify-self: center;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: var(--colorPink100);
+}
+
+.github {
+    background-color: transparent;
+}
+
+footer li:hover {
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+@media (max-width: 768px){
+    .allContainer{
+        overflow: hidden;
+    }
+
+    .hero{
+        margin: 50px auto;
+    }
+
+    .proyects {
+        margin: 50px auto;
+    }
+}
