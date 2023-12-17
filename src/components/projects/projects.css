@@ -1,0 +1,13 @@
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  margin: auto;
+  padding: 0 1.5rem 0 1.5rem;
+  width: 100%;
+}
+
+.section .projects {
+  width: 100%;
+}

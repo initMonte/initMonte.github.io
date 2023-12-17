@@ -1,0 +1,46 @@
+.container_iconCard {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: var(--container-color);
+  padding: 3rem 0 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconCard_icon {
+  font-size: 1.5rem;
+}
+
+.iconCard_button-icon {
+  display: block;
+  font-size: 2rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.iconCard_title {
+  width: 50%;
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.iconCard_button {
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  display: inline-flex;
+  align-items: baseline;
+  column-gap: 0.25rem;
+  cursor: pointer;
+}
+
+.iconCard_button-icon {
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.iconCard_button:hover .iconCard_button-icon {
+  transform: translateX(0.25rem);
+}

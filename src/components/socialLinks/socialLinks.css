@@ -1,0 +1,36 @@
+.container_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.icon-background {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  height: 34px;
+  width: 34px;
+  font-size: 1.25rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-background:hover {
+  background-color: var(--title-color-dark);
+}
+
+.icon-no-background {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.icon-no-background:hover {
+  color: var(--title-color-dark);
+}
