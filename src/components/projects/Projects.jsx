@@ -2,6 +2,7 @@ import './projects.css'
 import { projectsData } from '../../data/ProjectsList'
 import { ImageCard } from '../cards/imageCard/ImageCard'
 import { IconCard } from '../cards/iconCard/IconCard'
+import { links } from '../../data/Links.js'
 
 export const Projects = () => {
   return (
@@ -13,7 +14,7 @@ export const Projects = () => {
         {projectsData.map(item => (
             <ImageCard item={item} key={item.name} />
         ))}
-        <IconCard icon={'uil uil-github-alt'} title={'¿Quieres ver mas?'} buttonText={'Mirá mi GitHub'} />
+        <IconCard icon={'uil uil-github-alt'} goTo={links.github} title={'¿Quieres ver mas?'} buttonText={'Mirá mi GitHub'} />
       </div>
     </section>
   )

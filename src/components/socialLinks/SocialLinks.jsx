@@ -1,4 +1,5 @@
 import './socialLinks.css'
+import { links } from '../../data/Links.js';
 
 export const SocialLinks = ({vertical = false, background = false}) => {
   let containerType;
@@ -18,10 +19,10 @@ export const SocialLinks = ({vertical = false, background = false}) => {
 
   return (
     <div className={containerType}>
-      <a href='' className={iconType} target='_blank'>
+      <a href={links.github} className={iconType} target='_blank' rel="noreferrer">
         <i className='uil uil-github-alt' />
       </a>
-      <a href='' className={iconType} target='_blank'>
+      <a href={links.linkedin} className={iconType} target='_blank' rel="noreferrer">
         <i className='uil uil-linkedin-alt' />
       </a>
     </div>
