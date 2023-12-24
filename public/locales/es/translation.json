@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "name": "Monte",
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Matias Monteverde",
+    "subtitle": "Desarrollador de Software",
+    "description": "A 1 semestre de terminar la Tecnicatura en Desarrollo de Software estoy en busca de mi primer empleo en el área.",
+    "button": "Descargar CV",
+    "scroll": "Scroll"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "123123",
+    "card1": "asd",
+    "card2": "132"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Algunas de las cosas que hice:",
+    "githubCardtitle": "¿Quieres ver mas?",
+    "githubCardText": "Mirá mi GitHub"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Enviame un mensaje y charlemos sobre tu idea",
+    "card1Title": "",
+    "card1Text": "",
+    "card2Title": "",
+    "card2Text": "",
+    "formTitle": "",
+    "formName": "Nombre/Empresa",
+    "formNamePlaceholder": "Tu nombre o empresa...",
+    "formEmail": "E-mail",
+    "formEmailPlaceholder": "Tu email...",
+    "formMessage": "Mensaje",
+    "formMessagePlaceholder": "Mensaje...",
+    "formButton": "Enviar mensaje"
+  },
+  "footer": {
+    "name": "Monte",
+    "home": "Volver arriba",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "copyright": "© Matias Monteverde. Todos los derechos reservados 2024."
+  }
+}

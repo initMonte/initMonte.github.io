@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "name": "Monte",
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Matias Monteverde",
+    "subtitle": "Software Developer",
+    "description": "I am one semester away from completing my Degree in Software Development and I'm looking to get my first job as software developer.",
+    "button": "Download CV",
+    "scroll": "Scroll"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "123123",
+    "card1": "asd",
+    "card2": "132"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of the things I have done:",
+    "githubCardtitle": "¿Want to see more?",
+    "githubCardText": "Check out my GitHub"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Hit me up and let's chat about your idea",
+    "card1Title": "",
+    "card1Text": "",
+    "card2Title": "",
+    "card2Text": "",
+    "formTitle": "",
+    "formName": "Name/Company",
+    "formNamePlaceholder": "Your name or company...",
+    "formEmail": "E-mail",
+    "formEmailPlaceholder": "Your email...",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Message...",
+    "formButton": "Send message"
+  },
+  "footer": {
+    "name": "Monte",
+    "home": "Go top",
+    "skills": "Skills",
+    "projects": "Projects",
+    "copyright": "© Matias Monteverde. All rights reserved 2024."
+  }
+}
