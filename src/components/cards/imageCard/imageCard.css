@@ -3,14 +3,22 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
-  max-width: calc(295px + 1.25rem);
+  width: calc(295px + 1.25rem);
+  height: 550px;
 }
 
 .card_image {
   width: 295px;
   height: 295px;
+  padding: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+
+.container_card:hover .card_image {
+  transition: 0.4s;
+  height: 300px;
 }
 
 .card_title {
@@ -45,18 +53,4 @@
 .card_button:hover .card_button-icon {
   transform: translateX(0.25rem);
   color: var(--title-color);
-}
-
-@media screen and (max-width: 992px) {
-  .container_card {
-    padding: 1rem;
-  }
-
-  .card_image {
-    margin-bottom: 0.75rem;
-  }
-
-  .card_title {
-    margin-bottom: 0.25rem;
-  }
 }

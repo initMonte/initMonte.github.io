@@ -9,6 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     returnEmptyString: false,
+    returnObjects: true,
     debug: true,
     fallbackLng: 'en',
     backend: {

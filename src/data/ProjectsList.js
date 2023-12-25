@@ -1,4 +1,4 @@
-import Work1 from '../assets/work1.jpg';
+import AdidasImg from '../assets/AdidasImg.jpg';
 import Work2 from '../assets/work2.jpg';
 
 export const projectsData = [
@@ -6,7 +6,7 @@ export const projectsData = [
     name: 'Adidas Dummy website',
     description: 'Pagina inventada de Adidas',
     technologies: ['CSS', 'HTML'],
-    image: Work1,
+    image: AdidasImg,
     live: 'aaa',
     github: 'ddd',
   },
