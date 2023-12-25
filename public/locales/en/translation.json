@@ -15,17 +15,71 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "123123",
-    "card1": "asd",
-    "card2": "132"
+    "subtitle": "This are the technologies that I use:",
+    "card1": "Frontend",
+    "card1Array": [
+      {
+        "name": "React Native",
+        "description": "",
+        "icon": "uil uil-react"
+      },
+      {
+        "name": "ReactJS",
+        "description": "",
+        "icon": "uil uil-react"
+      },
+      {
+        "name": "JavaScript",
+        "description": "",
+        "icon": "uil uil-java-script"
+      },
+      {
+        "name": "CSS",
+        "description": "",
+        "icon": "bx bxl-css3"
+      },
+      {
+        "name": "HTML",
+        "description": "",
+        "icon": "bx bxl-html5"
+      }
+    ],
+    "card2": "Backend",
+    "card2Array": [
+      {
+        "name": "JavaScript",
+        "description": "",
+        "icon": "uil uil-java-script"
+      },
+      {
+        "name": "Java",
+        "description": "",
+        "icon": "bx bxl-java"
+      },
+      {
+        "name": "Python",
+        "description": "",
+        "icon": "bx bxl-python"
+      },
+      {
+        "name": "SQL",
+        "description": "",
+        "icon": "uil uil-database"
+      },
+      {
+        "name": "MongoDB",
+        "description": "",
+        "icon": "bx bxl-mongodb"
+      }
+    ]
   },
   "projects": {
     "title": "Projects",
     "subtitle": "Some of the things I have done:",
     "projectsArray": [
       {
-        "name": "Adidas Dummy website",
-        "description": "Página inventada de Adidas",
+        "name": "Adidas - Dummy website",
+        "description": "Dummy website to practice HTML and CSS",
         "technologies": ["CSS", "HTML"],
         "image": "static/media/AdidasImg.3a6afa472acf23061f23.jpg",
         "live": "https://initmonte.github.io/adidas-dummy-website",
@@ -33,7 +87,7 @@
       },
       {
         "name": "My Home",
-        "description": "Aplicación de compra/venta de inmuebles. Trabajo final de materia de desarrollo de Apps mobile",
+        "description": "Real State App for buy, sell and rent. This was the final work for a course of mobile Apps.",
         "technologies": ["React Native", "JavaScript", "NodeJS"],
         "image": "static/media/work2.e52a0c2981a6c11ba468.jpg",
         "github": "asd"

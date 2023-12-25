@@ -14,13 +14,6 @@ export const ListCard = ({title, list}) => {
                   </div>
                 </div>
               ))) : null}
-              <div className="skills_data">
-                <i className="bx bx-badge-check skills_img" />
-                <div>
-                  <h3 className="skills_name">React Native</h3>
-                  <span className="skills_description">Avanzado (?)</span>
-                </div>
-              </div>
           </div>
         </div>
   )
