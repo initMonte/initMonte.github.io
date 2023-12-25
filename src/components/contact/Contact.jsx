@@ -1,3 +1,5 @@
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next'
 
 import { IconCard } from '../cards/iconCard/IconCard'
@@ -7,6 +9,18 @@ import { links } from '../../data/Links'
 
 export const Contact = () => {
   const { t } = useTranslation();
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_dlamn5b', 'template_2md4jzm', form.current, 'XIABe-I5_u-FikS6A')
+      .then((result) => {
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
 
   return (
     <section className='contact section' id='contact'>
@@ -20,7 +34,7 @@ export const Contact = () => {
         </div>
         <div className='container_contact-form'>
           <h3 className='contact_title'>{t("contact.formTitle")}</h3>
-          <form className='contact_form'>
+          <form className='contact_form' ref={form} onSubmit={sendEmail}>
             <div className='contact_form-div'>
               <label className='contact_form-tag'>{t("contact.formName")}</label>
               <input 
@@ -49,10 +63,10 @@ export const Contact = () => {
                 placeholder={t("contact.formMessagePlaceholder")}
               />
             </div>
-            <a href='' className='button button--flex'>
+            <button className='button button--flex'>
             {t("contact.formButton")}
               <Send />
-            </a>
+            </button>
           </form>
         </div>
       </div>
