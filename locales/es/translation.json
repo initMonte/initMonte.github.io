@@ -15,9 +15,63 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "123123",
-    "card1": "asd",
-    "card2": "132"
+    "subtitle": "Estas son las tecnologias que manejo:",
+    "card1": "Frontend",
+    "card1Array": [
+      {
+        "name": "React Native",
+        "description": "",
+        "icon": "uil uil-react"
+      },
+      {
+        "name": "ReactJS",
+        "description": "",
+        "icon": "uil uil-react"
+      },
+      {
+        "name": "JavaScript",
+        "description": "",
+        "icon": "uil uil-java-script"
+      },
+      {
+        "name": "CSS",
+        "description": "",
+        "icon": "bx bxl-css3"
+      },
+      {
+        "name": "HTML",
+        "description": "",
+        "icon": "bx bxl-html5"
+      }
+    ],
+    "card2": "Backend",
+    "card2Array": [
+      {
+        "name": "JavaScript",
+        "description": "",
+        "icon": "uil uil-java-script"
+      },
+      {
+        "name": "Java",
+        "description": "",
+        "icon": "bx bxl-java"
+      },
+      {
+        "name": "Python",
+        "description": "",
+        "icon": "bx bxl-python"
+      },
+      {
+        "name": "SQL",
+        "description": "",
+        "icon": "uil uil-database"
+      },
+      {
+        "name": "MongoDB",
+        "description": "",
+        "icon": "bx bxl-mongodb"
+      }
+    ]
   },
   "projects": {
     "title": "Proyectos",
