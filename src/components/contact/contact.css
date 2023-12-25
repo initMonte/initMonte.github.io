@@ -1,8 +1,9 @@
 .contact_container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   padding-bottom: 3rem;
+  column-gap: 5rem;
 }
 
 .contact_cards {
@@ -19,7 +20,7 @@
 }
 
 .container_contact-form {
-  min-width: 400px;
+  width: 400px;
 }
 
 .contact_form-div {
