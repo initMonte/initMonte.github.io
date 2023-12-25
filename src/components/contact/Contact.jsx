@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next'
 
 import { IconCard } from '../cards/iconCard/IconCard'
 import './contact.css'
-
 import { Send } from '../../assets/Send'
+import { links } from '../../data/Links'
 
 export const Contact = () => {
   const { t } = useTranslation();
@@ -15,11 +15,11 @@ export const Contact = () => {
 
       <div className='contact_container container grid'>
         <div className='contact_cards'>
-          <IconCard title={"AsD"} buttonText={"dfgdg"} />
-          <IconCard title={"dSAdasd"} buttonText={"lklkl"} />
+          <IconCard title={t("contact.card1Title")} buttonText={t("contact.card1Text")} goTo={links.linkedin} icon={'uil uil-linkedin-alt'}/>
+          <IconCard title={t("contact.card2Title")} buttonText={t("contact.card2Text")} goTo={links.mailto} icon={'bx bxl-gmail'}/>
         </div>
         <div className='container_contact-form'>
-          <h3 className='contact_title'>asdasd</h3>
+          <h3 className='contact_title'>{t("contact.formTitle")}</h3>
           <form className='contact_form'>
             <div className='contact_form-div'>
               <label className='contact_form-tag'>{t("contact.formName")}</label>

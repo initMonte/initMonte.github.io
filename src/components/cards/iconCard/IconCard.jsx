@@ -1,6 +1,6 @@
 import './iconCard.css'
 
-export const IconCard = ({icon, title, buttonText, goTo, center = false}) => {
+export const IconCard = ({icon, title, buttonText, goTo}) => {
   return (
     <div className='container_iconCard'>
       {icon ? <i className={`${icon} iconCard_icon`} /> : <i className='bx bx-badge-check iconCard_icon' />}

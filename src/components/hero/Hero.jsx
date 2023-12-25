@@ -44,7 +44,7 @@ export const Hero = () => {
         </div>
       </div>
       <div className='hero_scroll'>
-        <a href='#about' className='hero_scroll-button button--flex'>
+        <a href='#skills' className='hero_scroll-button button--flex'>
         <Scroll />
         <span className="hero_scroll-name">
           {t('hero.scroll')} <i className='uil uil-arrow-down hero_scroll-arrow' />
