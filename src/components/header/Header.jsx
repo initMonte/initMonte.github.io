@@ -6,7 +6,7 @@ import './header.css'
 export const Header = () => {
   const { t, i18n } = useTranslation();
   const[showMenu, setShowMenu] = useState(false);
-
+  
   const locales = {
     es: {title: 'Es'},
     en: {title: 'En'}
@@ -15,15 +15,16 @@ export const Header = () => {
   return (
     <header className='header'>
       <nav className='nav container'>
-        <a href='index.html' className='nav_logo'>{t('nav.name')}</a>
-        <ul>
-          {Object.keys(locales).map((locale) => (
-            <li key={locale}><button type='submit' onClick={() => i18n.changeLanguage(locale)}>
-              {locales[locale].title}
-            </button></li>
-          ))}
-        </ul>
-        
+        <div className='nav_left'>
+          <a href='index.html' className='nav_logo'>{t('nav.name')}</a>
+          <select className='nav_language-selector' defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
+            {Object.keys(locales).map((locale) => (
+              <option className='select-items' key={locale} value={locale}>
+                {locales[locale].title}
+              </option>
+            ))}
+          </select>
+        </div>
         <div className={showMenu ? 'nav_menu show-menu' : 'nav_menu'}>
           <ul className='nav_list grid'>
             <li className='nav_item'>
@@ -50,7 +51,7 @@ export const Header = () => {
 
           <i className='uil uil-times nav_close' onClick={() => setShowMenu(!showMenu)} />
         </div>
-        
+          
         <div className='nav_toggle' onClick={() => setShowMenu(!showMenu)}>
           <i className='uil uil-apps' />
         </div>
