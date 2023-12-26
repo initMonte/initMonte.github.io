@@ -12,6 +12,7 @@
 
 .iconCard_icon {
   font-size: 1.5rem;
+  color: var(--primary-color);
 }
 
 .iconCard_button-icon {

@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+
 import '../../App.css'
 import './header.css'
+import { LogoM } from '../../assets/LogoM'
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
@@ -16,7 +18,7 @@ export const Header = () => {
     <header className='header'>
       <nav className='nav container'>
         <div className='nav_left'>
-          <a href='index.html' className='nav_logo'>{t('nav.name')}</a>
+          <a href='#hero' className='nav_logo'><LogoM /></a>
           <select className='nav_language-selector' defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
             {Object.keys(locales).map((locale) => (
               <option className='select-items' key={locale} value={locale}>

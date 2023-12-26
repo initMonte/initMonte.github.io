@@ -10,7 +10,7 @@
 }
 
 .icon-background {
-  background-color: var(--title-color);
+  background-color: var(--primary-color);
   color: var(--container-color);
   height: 34px;
   width: 34px;
@@ -23,14 +23,14 @@
 }
 
 .icon-background:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--primary-color-dark);
 }
 
 .icon-no-background {
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: var(--primary-color);
 }
 
 .icon-no-background:hover {
-  color: var(--title-color-dark);
+  color: var(--primary-color-dark);
 }
