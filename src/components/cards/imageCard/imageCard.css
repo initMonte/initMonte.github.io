@@ -11,6 +11,8 @@
   width: 295px;
   height: 295px;
   padding: 1px;
+  object-fit: cover;
+  object-position: 0 0;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   margin-bottom: 1rem;

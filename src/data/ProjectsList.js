@@ -1,5 +1,5 @@
 import AdidasImg from '../assets/AdidasImg.jpg';
-import Work2 from '../assets/work2.jpg';
+import MyHome from '../assets/MyHome-user-home.jpeg';
 
 export const projectsData = [
   {
@@ -14,7 +14,7 @@ export const projectsData = [
     name: 'My Home',
     description: 'Aplicacion de compra/venta de inmuebles. Trabajo final de materia de desarrollo de Apps mobile',
     technologies: ['React Native', 'JavaScript', 'NodeJS'],
-    image: Work2,
+    image: MyHome,
     github: 'asd',
   },
 ]

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 import './projects.css'
-import { projectsData } from '../../data/ProjectsList'
+//import { projectsData } from '../../data/ProjectsList'
 import { ImageCard } from '../cards/imageCard/ImageCard'
 import { IconCard } from '../cards/iconCard/IconCard'
 import { links } from '../../data/Links.js'

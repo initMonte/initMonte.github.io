@@ -1,4 +1,5 @@
-.container_iconCard {
+.iconCard_button {
+  cursor: pointer;
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
@@ -29,13 +30,12 @@
   font-weight: var(--font-medium);
 }
 
-.iconCard_button {
+.iconCard_p {
   color: var(--title-color);
   font-size: var(--small-font-size);
   display: inline-flex;
   align-items: baseline;
   column-gap: 0.25rem;
-  cursor: pointer;
 }
 
 .iconCard_button-icon {

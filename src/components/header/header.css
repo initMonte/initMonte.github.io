@@ -70,6 +70,10 @@
     height: var(--header-height);
   }
 
+  .nav_logo {
+    width: 35px;
+  }
+
   .nav_menu {
     position: fixed;
     top: -100%;
@@ -120,15 +124,5 @@
 
   .nav_icon, .nav_close, .nav_toggle {
     display: block;
-  }
-}
-
-@media screen and (max-width: 350px){
-  .nav_menu {
-    padding: 2rem 0.25rem 4rem;
-  }
-
-  .nav_list {
-    column-gap: 0;
   }
 }
