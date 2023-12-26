@@ -110,7 +110,11 @@
     "formEmailPlaceholder": "Your email...",
     "formMessage": "Message",
     "formMessagePlaceholder": "Message...",
-    "formButton": "Send message"
+    "formButton": "Send message",
+    "invalidName": "Write a name",
+    "invalidEmail": "Write an e-mail",
+    "invalidMessage": "Write a message",
+    "error": "Upps... An error occurred trying to send the message. Please contact me on Linkedin or e-mail."
   },
   "footer": {
     "name": "Monte",

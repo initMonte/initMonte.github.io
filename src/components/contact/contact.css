@@ -62,3 +62,9 @@
 .contact_form-area textarea {
   resize: none;
 }
+
+.contact_form-error {
+  font-size: var(--small-font-size);
+  color: red;
+  margin: 1rem 0 0 1rem;
+}

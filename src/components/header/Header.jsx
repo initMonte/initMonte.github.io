@@ -16,13 +16,13 @@ export const Header = () => {
     <header className='header'>
       <nav className='nav container'>
         <a href='index.html' className='nav_logo'>{t('nav.name')}</a>
-        <ull>
+        <ul>
           {Object.keys(locales).map((locale) => (
             <li key={locale}><button type='submit' onClick={() => i18n.changeLanguage(locale)}>
               {locales[locale].title}
             </button></li>
           ))}
-        </ull>
+        </ul>
         
         <div className={showMenu ? 'nav_menu show-menu' : 'nav_menu'}>
           <ul className='nav_list grid'>

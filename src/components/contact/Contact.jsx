@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next'
 
@@ -11,13 +11,52 @@ export const Contact = () => {
   const { t } = useTranslation();
   const form = useRef();
 
+  const [validName, setValidName] = useState(true);
+  const [validEmail, setValidEmail] = useState(true);
+  const [validMessage, setValidaMessage] = useState(true);
+
+  const errorAlert= t('contact.error');
+
+
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (e.target[0].value === "") {
+      e.target[0].focus();
+      setValidEmail(true);
+      setValidaMessage(true);
+      setValidName(false);
+      return;
+    } else {
+      setValidName(true);
+    }
+
+    if (e.target[1].value === "") {
+      e.target[1].focus();
+      setValidName(true);
+      setValidaMessage(true);
+      setValidEmail(false);
+      return;
+    } else {
+      setValidEmail(true);
+    }
+
+    if (e.target[2].value === "") {
+      e.target[2].focus();
+      setValidName(true);
+      setValidEmail(true);
+      setValidaMessage(false);
+      return;
+    } else {
+      setValidaMessage(true);
+    }
 
     emailjs.sendForm('service_dlamn5b', 'template_2md4jzm', form.current, 'XIABe-I5_u-FikS6A')
       .then((result) => {
           e.target.reset();
       }, (error) => {
+          alert(errorAlert)
           console.log(error.text);
       });
     };
@@ -67,6 +106,9 @@ export const Contact = () => {
             {t("contact.formButton")}
               <Send />
             </button>
+            {validName === false && <span className='contact_form-error'>{t("contact.invalidName")}</span>}
+            {validEmail === false && <span className='contact_form-error'>{t("contact.invalidEmail")}</span>}
+            {validMessage === false && <span className='contact_form-error'>{t("contact.invalidMessage")}</span>}
           </form>
         </div>
       </div>
