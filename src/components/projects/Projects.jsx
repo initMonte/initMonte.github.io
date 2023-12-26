@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 import './projects.css'
-//import { projectsData } from '../../data/ProjectsList'
+import { projectsData } from '../../data/ProjectsList' //is important yo leave this as is even if i don't directly use it
 import { ImageCard } from '../cards/imageCard/ImageCard'
 import { IconCard } from '../cards/iconCard/IconCard'
 import { links } from '../../data/Links.js'
