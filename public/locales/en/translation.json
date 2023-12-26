@@ -1,6 +1,5 @@
 {
   "nav": {
-    "name": "Monte",
     "home": "Home",
     "skills": "Skills",
     "projects": "Projects",
@@ -88,9 +87,9 @@
       {
         "name": "My Home",
         "description": "Real State App for buy, sell and rent. This was the final work for a course of mobile Apps.",
-        "technologies": ["React Native", "JavaScript", "NodeJS"],
+        "technologies": ["React Native", "JavaScript"],
         "image": "static/media/work2.e52a0c2981a6c11ba468.jpg",
-        "github": "asd"
+        "github": "https://github.com/initMonte/MyHome-front"
       }
     ],
     "githubCardtitle": "Want to see more?",
@@ -117,7 +116,6 @@
     "error": "Upps... An error occurred trying to send the message. Please contact me on Linkedin or e-mail."
   },
   "footer": {
-    "name": "Monte",
     "home": "Go top",
     "skills": "Skills",
     "projects": "Projects",
