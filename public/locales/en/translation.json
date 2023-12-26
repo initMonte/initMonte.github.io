@@ -15,7 +15,7 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "This are the technologies that I use:",
+    "subtitle": "This are the technologies that I use",
     "card1": "Frontend",
     "card1Array": [
       {
@@ -75,7 +75,7 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Some of the things I have done:",
+    "subtitle": "Some of the things I have done",
     "projectsArray": [
       {
         "name": "Adidas - Dummy website",
