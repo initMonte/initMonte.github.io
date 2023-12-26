@@ -15,7 +15,7 @@
   },
   "skills": {
     "title": "Skills",
-    "subtitle": "Estas son las tecnologias que manejo:",
+    "subtitle": "Estas son las tecnologias que manejo",
     "card1": "Frontend",
     "card1Array": [
       {
@@ -75,7 +75,7 @@
   },
   "projects": {
     "title": "Proyectos",
-    "subtitle": "Algunas de las cosas que hice:",
+    "subtitle": "Algunas de las cosas que hice",
     "projectsArray": [
       {
         "name": "Adidas  - Pagina web falsa",
