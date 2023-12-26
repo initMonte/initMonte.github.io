@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { SocialLinks } from '../socialLinks/SocialLinks';
 import './footer.css';
+import { LogoM } from '../../assets/LogoM';
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -9,7 +10,9 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title">{t("footer.name")}</h1>
+        <div className='footer_logo'>
+          <LogoM color='#333333'/>
+        </div>
 
         <ul className="footer_list">
           <li>

@@ -1,10 +1,10 @@
-export const LogoM = () => {
+export const LogoM = ({color = '#FE705A'}) => {
   return(
 		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			viewBox="0 0 50.1 49.7" xmlSpace="preserve">
 		<g>
 			<g>
-				<path style={{fill: "#FE705A"}} class="st0" d="M1.1,16.4c0-6.2,3.8-11.8,9.9-13.3c10.1-2.5,25.4-4.5,32.9,3c6.3,6.3,5.9,18.2,4.1,27.8
+				<path style={{fill: color}} class="st0" d="M1.1,16.4c0-6.2,3.8-11.8,9.9-13.3c10.1-2.5,25.4-4.5,32.9,3c6.3,6.3,5.9,18.2,4.1,27.8
 					c-1.7,9.2-10.2,14.9-19.6,14.9H8.6c-4.1,0-7.5-3.4-7.5-7.5V16.4z"/>
 			</g>
 		</g>
