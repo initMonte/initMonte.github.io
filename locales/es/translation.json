@@ -1,6 +1,5 @@
 {
   "nav": {
-    "name": "Monte",
     "home": "Home",
     "skills": "Skills",
     "projects": "Proyectos",
@@ -88,9 +87,9 @@
       {
         "name": "My Home",
         "description": "Aplicación de compra/venta de inmuebles. Trabajo final de materia de desarrollo de Apps mobile",
-        "technologies": ["React Native", "JavaScript", "NodeJS"],
+        "technologies": ["React Native", "JavaScript"],
         "image": "static/media/work2.e52a0c2981a6c11ba468.jpg",
-        "github": "asd"
+        "github": "https://github.com/initMonte/MyHome-front"
       }
     ],
     "githubCardtitle": "¿Quieres ver mas?",
@@ -117,7 +116,6 @@
     "error": "Upps... Ocurrio un error intentando enviar el mensaje. Por favor contactame por Linkedin o e-mail."
   },
   "footer": {
-    "name": "Monte",
     "home": "Volver arriba",
     "skills": "Skills",
     "projects": "Proyectos",
