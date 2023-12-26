@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.74ac47fe.css",
-    "main.js": "/static/js/main.40245147.js",
+    "main.css": "/static/css/main.f3bb32a6.css",
+    "main.js": "/static/js/main.cb489388.js",
     "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.b8dde3cdaf575c07c107.pdf",
     "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.fe865b07d4239a4c22a8.pdf",
     "static/media/FotoCV.jpg": "/static/media/FotoCV.628b444fe05ee502ce59.jpg",
@@ -9,11 +9,11 @@
     "static/media/work2.jpg": "/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.74ac47fe.css.map": "/static/css/main.74ac47fe.css.map",
-    "main.40245147.js.map": "/static/js/main.40245147.js.map"
+    "main.f3bb32a6.css.map": "/static/css/main.f3bb32a6.css.map",
+    "main.cb489388.js.map": "/static/js/main.cb489388.js.map"
   },
   "entrypoints": [
-    "static/css/main.74ac47fe.css",
-    "static/js/main.40245147.js"
+    "static/css/main.f3bb32a6.css",
+    "static/js/main.cb489388.js"
   ]
 }
