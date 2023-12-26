@@ -120,5 +120,9 @@
     "skills": "Skills",
     "projects": "Proyectos",
     "copyright": "© Matias Monteverde. Todos los derechos reservados 2024."
+  },
+  "notFound": {
+    "title": "Upps...no pudimos encontrar la pagina buscada",
+    "text": "Haz click en el logo para volver al inicio."
   }
 }
