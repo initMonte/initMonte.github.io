@@ -149,6 +149,12 @@ img {
   align-items: center;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 @media screen and (max-width: 992px){
   .container {
     margin-left: 1.5rem;

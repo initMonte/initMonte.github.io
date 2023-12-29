@@ -7,6 +7,8 @@ import { LogoM } from '../../assets/LogoM';
 export const Footer = () => {
   const { t } = useTranslation();
 
+  const year = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer_container container">
@@ -29,7 +31,7 @@ export const Footer = () => {
         <SocialLinks background />
 
         <span className="footer_copy">
-          {t("footer.copyright")}
+          {t("footer.copyright")}{year}.
         </span>
       </div>
     </footer>
