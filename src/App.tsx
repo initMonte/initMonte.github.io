@@ -1,8 +1,9 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import { Home } from './pages/Home';
-import { NotFound } from './pages/notFound/NotFound';
+import { Home } from './pages/Home.tsx';
+import { NotFound } from './pages/notFound/NotFound.tsx';
 
 function App() {
   return (

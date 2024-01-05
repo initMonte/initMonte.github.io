@@ -1,11 +1,12 @@
+import React from 'react';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next'
 
-import { IconCard } from '../cards/iconCard/IconCard'
+import { IconCard } from '../cards/iconCard/IconCard.tsx'
 import './contact.css'
-import { Send } from '../../assets/Send'
-import { links } from '../../data/Links'
+import { Send } from '../../assets/Send.tsx'
+import { links } from '../../data/Links.ts'
 
 export const Contact = () => {
   const { t } = useTranslation();

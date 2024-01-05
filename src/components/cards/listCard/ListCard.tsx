@@ -1,3 +1,4 @@
+import React from 'react'
 import './listCard.css'
 
 export const ListCard = ({title, list}) => {

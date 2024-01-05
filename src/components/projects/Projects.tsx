@@ -1,10 +1,11 @@
+import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import './projects.css'
-import { projectsData } from '../../data/ProjectsList' //is important yo leave this as is even if i don't directly use it
-import { ImageCard } from '../cards/imageCard/ImageCard'
-import { IconCard } from '../cards/iconCard/IconCard'
-import { links } from '../../data/Links.js'
+import { projectsData } from '../../data/ProjectsList.ts' //is important yo leave this as is even if i don't directly use it
+import { ImageCard } from '../cards/imageCard/ImageCard.tsx'
+import { IconCard } from '../cards/iconCard/IconCard.tsx'
+import { links } from '../../data/Links.ts'
 
 export const Projects = () => {
   const { t } = useTranslation();

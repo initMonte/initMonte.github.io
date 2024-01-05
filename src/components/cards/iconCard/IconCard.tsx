@@ -1,3 +1,4 @@
+import React from 'react'
 import './iconCard.css'
 
 export const IconCard = ({icon, title, buttonText, goTo}) => {

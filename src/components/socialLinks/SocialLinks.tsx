@@ -1,5 +1,6 @@
+import React from 'react';
 import './socialLinks.css'
-import { links } from '../../data/Links.js';
+import { links } from '../../data/Links.ts';
 
 export const SocialLinks = ({vertical = false, background = false}) => {
   let containerType;

@@ -1,7 +1,8 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next'
 
 import './skills.css'
-import { ListCard } from '../cards/listCard/ListCard'
+import { ListCard } from '../cards/listCard/ListCard.tsx'
 
 export const Skills = () => {
   const { t } = useTranslation();

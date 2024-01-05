@@ -1,3 +1,4 @@
+import React from 'react'
 import './imageCard.css'
 
 export const ImageCard = ({item}) => {

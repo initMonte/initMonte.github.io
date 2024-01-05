@@ -1,9 +1,10 @@
+import React from 'react'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import '../../App.css'
 import './header.css'
-import { LogoM } from '../../assets/LogoM'
+import { LogoM } from '../../assets/LogoM.tsx'
 
 export const Header = () => {
   const { t, i18n } = useTranslation();

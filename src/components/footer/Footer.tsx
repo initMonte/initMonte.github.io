@@ -1,8 +1,9 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { SocialLinks } from '../socialLinks/SocialLinks';
+import { SocialLinks } from '../socialLinks/SocialLinks.tsx';
 import './footer.css';
-import { LogoM } from '../../assets/LogoM';
+import { LogoM } from '../../assets/LogoM.tsx';
 
 export const Footer = () => {
   const { t } = useTranslation();

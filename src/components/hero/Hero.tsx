@@ -1,13 +1,14 @@
+import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './hero.css'
-import i18n from '../../i18n.js'
+import i18n from '../../i18n.ts'
 
 import CVes from '../../assets/CVespañol-MatiasMonteverde.pdf'
 import CVen from '../../assets/CVenglish-MatiasMonteverde.pdf'
 
-import { Files } from '../../assets/Files.jsx'
-import { Scroll } from '../../assets/Scroll.jsx'
-import { SocialLinks } from '../socialLinks/SocialLinks.jsx'
+import { Files } from '../../assets/Files.tsx'
+import { Scroll } from '../../assets/Scroll.tsx'
+import { SocialLinks } from '../socialLinks/SocialLinks.tsx'
 
 export const Hero = () => {
   const { t } = useTranslation();

@@ -1,9 +1,10 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import '../../App.css'
 import './notFound.css'
 
-import { LogoM } from '../../assets/LogoM'
+import { LogoM } from '../../assets/LogoM.tsx'
 
 export function NotFound() {
   const { t } = useTranslation();
