@@ -1,7 +1,7 @@
 import React from 'react'
 import './iconCard.css'
 
-export const IconCard = ({icon, title, buttonText, goTo}) => {
+export const IconCard = ({icon, title, buttonText, goTo}: {icon: string, title: string, buttonText: string, goTo: string}) => {
   return (
     <a href={goTo} target='_blank' className='iconCard_button' rel="noreferrer">
       {icon ? <i className={`${icon} iconCard_icon`} /> : <i className='bx bx-badge-check iconCard_icon' />}
