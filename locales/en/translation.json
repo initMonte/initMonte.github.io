@@ -80,7 +80,7 @@
         "name": "Adidas - Dummy website",
         "description": "Dummy website to practice HTML and CSS",
         "technologies": ["CSS", "HTML"],
-        "image": "static/media/AdidasImg.jpg",
+        "image": "static/media/AdidasImg.3a6afa472acf23061f23.jpg",
         "live": "https://initmonte.github.io/adidas-dummy-website",
         "github": "https://github.com/initMonte/adidas-dummy-website"
       },
@@ -88,7 +88,7 @@
         "name": "My Home",
         "description": "Real State App for buy, sell and rent. This was the final work for a course of mobile Apps.",
         "technologies": ["React Native", "JavaScript"],
-        "image": "static/media/MyHome-user-home.jpeg",
+        "image": "static/media/MyHome-user-home.b19d51fc483e429bfa44.jpeg",
         "github": "https://github.com/initMonte/MyHome-front"
       }
     ],
