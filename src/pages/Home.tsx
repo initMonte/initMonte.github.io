@@ -4,7 +4,7 @@ import '../App.css'
 import { Header } from "../components/header/Header.tsx"
 import { Hero } from '../components/hero/Hero.tsx'
 import { Skills } from '../components/skills/Skills.tsx'
-import { Projects } from '../components/projects/Projects.tsx'
+import { Projects } from '../components/projects/Projects.jsx'
 import { Footer } from '../components/footer/Footer.tsx'
 import { Contact } from '../components/contact/Contact.tsx'
 
