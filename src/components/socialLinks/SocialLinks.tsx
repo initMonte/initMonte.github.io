@@ -3,8 +3,8 @@ import './socialLinks.css'
 import { links } from '../../data/Links.ts';
 
 export const SocialLinks = ({vertical = false, background = false}) => {
-  let containerType;
-  let iconType;
+  let containerType: string;
+  let iconType: string;
 
   if (vertical === true) {
     containerType = 'container_social vertical'
