@@ -82,15 +82,17 @@
     "subtitle": "Algunas de las cosas que hice",
     "projectsArray": [
       {
-        "name": "Adidas  - Pagina web falsa",
-        "description": "Página inventada de Adidas para practicar HTML y CSS",
+        "name": "All in One API",
+        "description": "REST API con informacion multi-proposito and multi-lenguage para probar y mostrar tus prototipos y proyectos.",
         "technologies": [
+          "JavaScript",
+          "Node.js",
           "CSS",
           "HTML"
         ],
-        "image": "static/media/AdidasImg.3a6afa472acf23061f23.jpg",
-        "live": "https://initmonte.github.io/adidas-dummy-website",
-        "github": "https://github.com/initMonte/adidas-dummy-website"
+        "image": "static/media/AllInOneAPI.1f278c4ebc5e56e0721d.webp",
+        "live": "https://allinoneapi.vercel.app/",
+        "github": "https://github.com/initMonte/all-in-one-api"
       },
       {
         "name": "My Home",
