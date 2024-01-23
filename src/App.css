@@ -7,7 +7,7 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: hsl(var(--hue), var(--sat), 36%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #ffffff;
   --primary-color: #FE705A;
@@ -48,7 +48,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html {
@@ -57,7 +57,10 @@ html {
   max-width: 100%;
 }
 
-body, button, input, textarea {
+body,
+button,
+input,
+textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
@@ -67,7 +70,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
@@ -111,7 +116,8 @@ img {
   margin-bottom: 4rem;
 }
 
-.section_title, .section_subtitle {
+.section_title,
+.section_subtitle {
   text-align: center;
 }
 
@@ -133,7 +139,7 @@ img {
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
 }
 
 .button:hover {
@@ -155,7 +161,7 @@ img {
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -171,13 +177,13 @@ img {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .section {
     padding: 2rem 0 4rem;
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
   :root {
     --big-font-size: 2.2rem;
   }

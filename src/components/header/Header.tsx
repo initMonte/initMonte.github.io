@@ -20,7 +20,7 @@ export const Header = () => {
       <nav className='nav container'>
         <div className='nav_left'>
           <a href='#hero' className='nav_logo' aria-label="Click the Logo to go home"><LogoM /></a>
-          <select className='nav_language-selector' defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
+          <select className='nav_language-selector' aria-label="Language selector" defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
             {Object.keys(locales).map((locale) => (
               <option className='select-items' key={locale} value={locale}>
                 {locales[locale].title}
