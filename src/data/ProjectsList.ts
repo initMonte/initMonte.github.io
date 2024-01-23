@@ -1,12 +1,12 @@
-import AdidasImg from '../assets/AdidasImg.jpg';
+import AllInOneApiImg from '../assets/AllInOneAPI.webp';
 import MyHome from '../assets/MyHome-user-home.webp';
 
 export const projectsData = [
   {
-    name: 'Adidas Dummy website',
-    description: 'Pagina inventada de Adidas',
-    technologies: ['CSS', 'HTML'],
-    image: AdidasImg,
+    name: 'All in One API',
+    description: 'REST API con informacion multi proposito y multi lenguage',
+    technologies: ['Node.js', 'Javascript', 'CSS', 'HTML'],
+    image: AllInOneApiImg,
     live: 'aaa',
     github: 'ddd',
   },

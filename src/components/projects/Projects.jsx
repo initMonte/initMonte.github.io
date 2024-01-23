@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import './projects.css'
-import { projectsData } from '../../data/ProjectsList.ts' //is important yo leave this as is even if i don't directly use it
+import { projectsData } from '../../data/ProjectsList.ts' //is important yo leave this as is even if i don't directly use it to test
 import { ImageCard } from '../cards/imageCard/ImageCard.tsx'
 import { IconCard } from '../cards/iconCard/IconCard.tsx'
 import { links } from '../../data/Links.ts'
