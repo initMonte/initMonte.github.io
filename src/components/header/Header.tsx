@@ -8,11 +8,11 @@ import { LogoM } from '../../assets/LogoM.tsx'
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
-  const[showMenu, setShowMenu] = useState(false);
-  
+  const [showMenu, setShowMenu] = useState(false);
+
   const locales = {
-    es: {title: 'Es'},
-    en: {title: 'En'}
+    es: { title: 'Es' },
+    en: { title: 'En' }
   };
 
   return (
@@ -54,7 +54,7 @@ export const Header = () => {
 
           <i className='uil uil-times nav_close' onClick={() => setShowMenu(!showMenu)} />
         </div>
-          
+
         <div className='nav_toggle' onClick={() => setShowMenu(!showMenu)}>
           <i className='uil uil-apps' />
         </div>
