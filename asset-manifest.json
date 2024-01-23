@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3bd385f.css",
-    "main.js": "/static/js/main.50edfcb1.js",
+    "main.css": "/static/css/main.28bec18b.css",
+    "main.js": "/static/js/main.6fc2b0fa.js",
     "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.e37e9973ab776ae908ab.pdf",
     "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.72e2a31b5705addc85e9.pdf",
-    "static/media/FotoCV.jpg": "/static/media/FotoCV.628b444fe05ee502ce59.jpg",
-    "static/media/MyHome-user-home.jpeg": "/static/media/MyHome-user-home.b19d51fc483e429bfa44.jpeg",
+    "static/media/FotoCV.webp": "/static/media/FotoCV.c38c9b7931f21fa59fd2.webp",
     "static/media/AdidasImg.jpg": "/static/media/AdidasImg.3a6afa472acf23061f23.jpg",
+    "static/media/MyHome-user-home.webp": "/static/media/MyHome-user-home.7e237066a2c25f06c72a.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.f3bd385f.css.map": "/static/css/main.f3bd385f.css.map",
-    "main.50edfcb1.js.map": "/static/js/main.50edfcb1.js.map"
+    "main.28bec18b.css.map": "/static/css/main.28bec18b.css.map",
+    "main.6fc2b0fa.js.map": "/static/js/main.6fc2b0fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3bd385f.css",
-    "static/js/main.50edfcb1.js"
+    "static/css/main.28bec18b.css",
+    "static/js/main.6fc2b0fa.js"
   ]
 }
