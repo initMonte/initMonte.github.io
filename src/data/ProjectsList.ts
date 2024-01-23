@@ -1,5 +1,5 @@
 import AdidasImg from '../assets/AdidasImg.jpg';
-import MyHome from '../assets/MyHome-user-home.jpeg';
+import MyHome from '../assets/MyHome-user-home.webp';
 
 export const projectsData = [
   {

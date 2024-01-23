@@ -5,6 +5,7 @@ import i18n from '../../i18n.ts'
 
 import CVes from '../../assets/CVespañol-MatiasMonteverde.pdf'
 import CVen from '../../assets/CVenglish-MatiasMonteverde.pdf'
+import profileImg from '../../assets/FotoCV.webp'
 
 import { Files } from '../../assets/Files.tsx'
 import { Scroll } from '../../assets/Scroll.tsx'
@@ -27,7 +28,7 @@ export const Hero = () => {
       <div className='hero_container container grid'>
         <div className='hero_content grid'>
           <SocialLinks vertical />
-          <div className='hero_img' />
+          <img className='hero_img' src={profileImg} alt={t('hero.title')} />
           <div className='hero_data'>
             <h1 className='hero_title'>
               {t('hero.title')}

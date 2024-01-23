@@ -16,10 +16,10 @@ export const Projects = () => {
     <section className='section projects' id='projects'>
       <h2 className='section_title'>{t('projects.title')}</h2>
       <span className='section_subtitle'>{t('projects.subtitle')}</span>
-    
+
       <div className='projects_container'>
         {arrayProjects.map(item => (
-            <ImageCard item={item} key={item.name} />
+          <ImageCard item={item} key={item.name} />
         ))}
         <IconCard icon={'uil uil-github-alt'} goTo={links.github} title={t('projects.githubCardtitle')} buttonText={t('projects.githubCardText')} />
       </div>
