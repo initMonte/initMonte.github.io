@@ -23,36 +23,36 @@ export const Hero = () => {
   }
 
   return (
-  <section className='hero section' id='hero'>
-    <div className='hero_container container grid'>
-      <div className='hero_content grid'>
-        <SocialLinks vertical />
-        <div className='hero_img' />
-        <div className='hero_data'>
-          <h1 className='hero_title'>
-            {t('hero.title')}
-          </h1>
-          <h3 className='hero_subtitle'>
-            {t('hero.subtitle')}
-          </h3>
-          <p className='hero_description'>
-            {t('hero.description')}
-          </p>
-          <a download href={CV()} className='button button--flex'>
-            {t('hero.button')}
-            <Files />
+    <section className='hero section' id='hero'>
+      <div className='hero_container container grid'>
+        <div className='hero_content grid'>
+          <SocialLinks vertical />
+          <div className='hero_img' />
+          <div className='hero_data'>
+            <h1 className='hero_title'>
+              {t('hero.title')}
+            </h1>
+            <h2 className='hero_subtitle'>
+              {t('hero.subtitle')}
+            </h2>
+            <p className='hero_description'>
+              {t('hero.description')}
+            </p>
+            <a download href={CV()} className='button button--flex'>
+              {t('hero.button')}
+              <Files />
+            </a>
+          </div>
+        </div>
+        <div className='hero_scroll'>
+          <a href='#skills' className='hero_scroll-button button--flex'>
+            <Scroll />
+            <span className="hero_scroll-name">
+              {t('hero.scroll')} <i className='uil uil-arrow-down hero_scroll-arrow' />
+            </span>
           </a>
         </div>
       </div>
-      <div className='hero_scroll'>
-        <a href='#skills' className='hero_scroll-button button--flex'>
-        <Scroll />
-        <span className="hero_scroll-name">
-          {t('hero.scroll')} <i className='uil uil-arrow-down hero_scroll-arrow' />
-        </span>
-      </a>
-      </div>
-    </div>
-  </section>
+    </section>
   )
 }
