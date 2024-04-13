@@ -83,12 +83,18 @@ ul {
 
 a {
   text-decoration: none;
+  transition:
+  background-color 0.2s ease-in,
+  color 0.2s ease-in,
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
+  transition:
+    background-color 0.2s ease-in,
+    color 0.2s ease-in,
 }
 
 img {
@@ -158,6 +164,10 @@ img {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  button, a {
+    transition: none;
   }
 }
 
