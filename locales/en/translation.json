@@ -7,8 +7,8 @@
   },
   "hero": {
     "title": "Matias Monteverde",
-    "subtitle": "Software Developer",
-    "description": "I am one semester away from completing my Degree in Software Development and I'm looking to get my first job as software developer.",
+    "subtitle": "Full Stack Developer",
+    "description": "Currently working as Web Developer, while continuing to train myself in various technologies on my own.",
     "button": "Download CV",
     "scroll": "Scroll"
   },
@@ -31,6 +31,11 @@
         "name": "JavaScript",
         "description": "",
         "icon": "bx bxl-javascript"
+      },
+      {
+        "name": "TypeScript",
+        "description": "",
+        "icon": "bx bxl-typescript"
       },
       {
         "name": "CSS",
@@ -126,6 +131,7 @@
     "invalidName": "Write a name",
     "invalidEmail": "Write an e-mail",
     "invalidMessage": "Write a message",
+    "success": "Thank you for reaching out! I will respond asap :)",
     "error": "Upps... An error occurred trying to send the message. Please contact me on Linkedin or e-mail."
   },
   "footer": {
