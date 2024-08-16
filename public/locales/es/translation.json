@@ -7,8 +7,8 @@
   },
   "hero": {
     "title": "Matias Monteverde",
-    "subtitle": "Desarrollador de Software",
-    "description": "A 1 semestre de terminar la Tecnicatura en Desarrollo de Software estoy en busca de mi primer empleo en el área.",
+    "subtitle": "Desarrollador Full Stack",
+    "description": "Actualmente trabajando como Desarrollador Web, a la vez que sigo capacitandome por mi cuenta en diversas tecnologias.",
     "button": "Descargar CV",
     "scroll": "Scroll"
   },
@@ -31,6 +31,11 @@
         "name": "JavaScript",
         "description": "",
         "icon": "bx bxl-javascript"
+      },
+      {
+        "name": "TypeScript",
+        "description": "",
+        "icon": "bx bxl-typescript"
       },
       {
         "name": "CSS",
