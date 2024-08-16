@@ -16,10 +16,6 @@ export const Contact = () => {
   const [validEmail, setValidEmail] = useState(true);
   const [validMessage, setValidaMessage] = useState(true);
 
-  const errorAlert= t('contact.error');
-
-
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -56,8 +52,9 @@ export const Contact = () => {
     emailjs.sendForm('service_dlamn5b', 'template_2md4jzm', form.current, 'XIABe-I5_u-FikS6A')
       .then((result) => {
           e.target.reset();
+          alert(t('contact.success'))
       }, (error) => {
-          alert(errorAlert)
+          alert(t('contact.error'))
           console.log(error.text);
       });
     };

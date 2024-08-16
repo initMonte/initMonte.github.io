@@ -131,6 +131,7 @@
     "invalidName": "Escribe un nombre",
     "invalidEmail": "Escribe un e-mail",
     "invalidMessage": "Escribe un mensaje",
+    "success": "¡Gracias por contactarme! Responderé lo mas pronto posible :)",
     "error": "Upps... Ocurrio un error intentando enviar el mensaje. Por favor contactame por Linkedin o e-mail."
   },
   "footer": {
