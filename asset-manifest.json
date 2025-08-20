@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e97c7e1b.css",
-    "main.js": "/static/js/main.1dae7f1c.js",
-    "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.0e2106e464c975208bee.pdf",
-    "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.310c2feb3d74b334637a.pdf",
+    "main.js": "/static/js/main.729e7f9d.js",
     "static/media/FotoCV.webp": "/static/media/FotoCV.c38c9b7931f21fa59fd2.webp",
+    "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.4297be8cd859d9c99ceb.pdf",
+    "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.21073992dfc8cafe1b5d.pdf",
     "static/media/MyHome-user-home.webp": "/static/media/MyHome-user-home.7e237066a2c25f06c72a.webp",
     "static/media/AllInOneAPI.webp": "/static/media/AllInOneAPI.1f278c4ebc5e56e0721d.webp",
     "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "static/media/getFetch.cjs": "/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
     "main.e97c7e1b.css.map": "/static/css/main.e97c7e1b.css.map",
-    "main.1dae7f1c.js.map": "/static/js/main.1dae7f1c.js.map"
+    "main.729e7f9d.js.map": "/static/js/main.729e7f9d.js.map"
   },
   "entrypoints": [
     "static/css/main.e97c7e1b.css",
-    "static/js/main.1dae7f1c.js"
+    "static/js/main.729e7f9d.js"
   ]
 }
