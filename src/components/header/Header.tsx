@@ -5,9 +5,11 @@ import { useTranslation } from 'react-i18next'
 import '../../App.css'
 import './header.css'
 import { LogoM } from '../../assets/LogoM.tsx'
+import { useTheme } from '../../context/ThemeContext.tsx'
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
+  const { theme, toggleTheme } = useTheme();
   const [showMenu, setShowMenu] = useState(false);
 
   const locales = {
@@ -27,6 +29,15 @@ export const Header = () => {
               </option>
             ))}
           </select>
+          <button
+            type="button"
+            className="nav_theme-toggle"
+            onClick={toggleTheme}
+            aria-label={theme === 'dark' ? t('nav.themeSwitchToLight') : t('nav.themeSwitchToDark')}
+            aria-pressed={theme === 'dark'}
+          >
+            <i className={theme === 'dark' ? 'uil uil-sun' : 'uil uil-moon'} aria-hidden />
+          </button>
         </div>
         <div className={showMenu ? 'nav_menu show-menu' : 'nav_menu'}>
           <ul className='nav_list grid'>

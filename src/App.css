@@ -12,6 +12,7 @@
   --container-color: #ffffff;
   --primary-color: #FE705A;
   --primary-color-dark: #CB5947;
+  --hero-img-ring: rgb(255 255 255 / 30%);
 
   --body-font: 'Poppins', sans-serif;
 
@@ -31,6 +32,15 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+}
+
+html.dark {
+  --title-color: hsl(var(--hue), var(--sat), 92%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 72%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: hsl(var(--hue), var(--sat), 16%);
+  --hero-img-ring: rgb(0 0 0 / 35%);
 }
 
 @media screen and (max-width: 992px) {

@@ -3,7 +3,9 @@
     "home": "Home",
     "skills": "Skills",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "themeSwitchToLight": "Cambiar a modo claro",
+    "themeSwitchToDark": "Cambiar a modo oscuro"
   },
   "hero": {
     "title": "Matias Monteverde",

@@ -4,9 +4,12 @@ import { useTranslation } from 'react-i18next';
 import { SocialLinks } from '../socialLinks/SocialLinks.tsx';
 import './footer.css';
 import { LogoM } from '../../assets/LogoM.tsx';
+import { useTheme } from '../../context/ThemeContext.tsx';
 
 export const Footer = () => {
   const { t } = useTranslation();
+  const { theme } = useTheme();
+  const logoColor = theme === 'dark' ? 'var(--primary-color)' : '#333333';
 
   const year = new Date().getFullYear();
 
@@ -14,7 +17,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer_container container">
         <div className='footer_logo'>
-          <LogoM color='#333333'/>
+          <LogoM outlineColor={logoColor} />
         </div>
 
         <ul className="footer_list">

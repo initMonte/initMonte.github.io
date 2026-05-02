@@ -4,10 +4,13 @@ import './i18n.ts';
 
 import './App.css';
 import App from './App.tsx';
+import { ThemeProvider } from './context/ThemeContext.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </BrowserRouter>
 );

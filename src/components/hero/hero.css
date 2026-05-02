@@ -39,7 +39,7 @@
 
 .hero_img {
   background-size: cover;
-  box-shadow: inset 0 0 0 3px rgb(255 255 255 / 30%);
+  box-shadow: inset 0 0 0 3px var(--hero-img-ring);
   order: 1;
   justify-self: center;
   width: 300px;

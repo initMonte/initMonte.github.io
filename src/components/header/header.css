@@ -32,9 +32,34 @@
   outline: none;
   cursor: pointer;
   background-color: var(--body-color);
+  color: var(--title-color);
   padding: 0.2rem;
   border: 0px;
   border-radius: 0.25em;
+}
+
+.nav_theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: none;
+  border-radius: 0.35rem;
+  background-color: transparent;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.nav_theme-toggle:hover {
+  color: var(--title-color-dark);
+  background-color: hsl(var(--hue), var(--sat), 50% / 0.12);
+}
+
+html.dark .nav_theme-toggle:hover {
+  background-color: hsl(var(--hue), var(--sat), 100% / 0.08);
 }
 
 .nav_list {
