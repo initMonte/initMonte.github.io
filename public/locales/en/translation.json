@@ -5,7 +5,15 @@
     "projects": "Projects",
     "contact": "Contact",
     "themeSwitchToLight": "Switch to light mode",
-    "themeSwitchToDark": "Switch to dark mode"
+    "themeSwitchToDark": "Switch to dark mode",
+    "logoHome": "Go to home",
+    "languageSelector": "Language",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "socialLinks": {
+    "githubAria": "Visit my GitHub profile (opens in a new tab)",
+    "linkedinAria": "Visit my LinkedIn profile (opens in a new tab)"
   },
   "hero": {
     "title": "Matias Monteverde",

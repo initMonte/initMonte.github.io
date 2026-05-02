@@ -21,8 +21,8 @@ export const Header = () => {
     <header className='header'>
       <nav className='nav container'>
         <div className='nav_left'>
-          <a href='#hero' className='nav_logo' aria-label="Click the Logo to go home"><LogoM /></a>
-          <select className='nav_language-selector' aria-label="Language selector" defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
+          <a href='#hero' className='nav_logo' aria-label={t('nav.logoHome')}><LogoM /></a>
+          <select className='nav_language-selector' aria-label={t('nav.languageSelector')} defaultValue={i18n.language} onChange={e => i18n.changeLanguage(e.target.value)}>
             {Object.keys(locales).map((locale) => (
               <option className='select-items' key={locale} value={locale}>
                 {locales[locale].title}
@@ -63,12 +63,25 @@ export const Header = () => {
             </li>
           </ul>
 
-          <i className='uil uil-times nav_close' onClick={() => setShowMenu(!showMenu)} />
+          <button
+            type="button"
+            className="nav_close"
+            onClick={() => setShowMenu(!showMenu)}
+            aria-label={t('nav.closeMenu')}
+          >
+            <i className="uil uil-times" aria-hidden />
+          </button>
         </div>
 
-        <div className='nav_toggle' onClick={() => setShowMenu(!showMenu)}>
-          <i className='uil uil-apps' />
-        </div>
+        <button
+          type="button"
+          className="nav_toggle"
+          onClick={() => setShowMenu(!showMenu)}
+          aria-label={t('nav.openMenu')}
+          aria-expanded={showMenu}
+        >
+          <i className="uil uil-apps" aria-hidden />
+        </button>
       </nav>
     </header>
   )
