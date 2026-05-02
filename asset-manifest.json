@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e97c7e1b.css",
-    "main.js": "/static/js/main.729e7f9d.js",
+    "main.css": "/static/css/main.db9e20a8.css",
+    "main.js": "/static/js/main.50d05a18.js",
     "static/media/FotoCV.webp": "/static/media/FotoCV.c38c9b7931f21fa59fd2.webp",
-    "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.4297be8cd859d9c99ceb.pdf",
-    "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.21073992dfc8cafe1b5d.pdf",
-    "static/media/MyHome-user-home.webp": "/static/media/MyHome-user-home.7e237066a2c25f06c72a.webp",
-    "static/media/AllInOneAPI.webp": "/static/media/AllInOneAPI.1f278c4ebc5e56e0721d.webp",
+    "static/media/CVespañol-MatiasMonteverde.pdf": "/static/media/CVespañol-MatiasMonteverde.67aadc2121f0659fb0dd.pdf",
+    "static/media/CVenglish-MatiasMonteverde.pdf": "/static/media/CVenglish-MatiasMonteverde.2d6cb46dc71397c88bf1.pdf",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.7a7a1c81840c96d5a3ea.cjs",
-    "main.e97c7e1b.css.map": "/static/css/main.e97c7e1b.css.map",
-    "main.729e7f9d.js.map": "/static/js/main.729e7f9d.js.map"
+    "main.db9e20a8.css.map": "/static/css/main.db9e20a8.css.map",
+    "main.50d05a18.js.map": "/static/js/main.50d05a18.js.map"
   },
   "entrypoints": [
-    "static/css/main.e97c7e1b.css",
-    "static/js/main.729e7f9d.js"
+    "static/css/main.db9e20a8.css",
+    "static/js/main.50d05a18.js"
   ]
 }

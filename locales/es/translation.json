@@ -3,7 +3,17 @@
     "home": "Home",
     "skills": "Skills",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "themeSwitchToLight": "Cambiar a modo claro",
+    "themeSwitchToDark": "Cambiar a modo oscuro",
+    "logoHome": "Ir al inicio",
+    "languageSelector": "Idioma",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "socialLinks": {
+    "githubAria": "Ver mi perfil de GitHub (se abre en una nueva pestaña)",
+    "linkedinAria": "Ver mi perfil de LinkedIn (se abre en una nueva pestaña)"
   },
   "hero": {
     "title": "Matias Monteverde",
