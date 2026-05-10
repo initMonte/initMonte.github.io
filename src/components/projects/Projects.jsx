@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import './projects.css'
-// import { projectsData } from '../../data/ProjectsList.ts' //is important yo leave this as is even if i don't directly use it to test
+import { projectsData } from '../../data/ProjectsList.ts'
 import { ImageCard } from '../cards/imageCard/ImageCard.tsx'
 import { IconCard } from '../cards/iconCard/IconCard.tsx'
 import { links } from '../../data/Links.ts'
@@ -10,7 +10,11 @@ import { links } from '../../data/Links.ts'
 export const Projects = () => {
   const { t } = useTranslation();
 
-  const arrayProjects = t('projects.projectsArray');
+  const fromI18n = t('projects.projectsArray')
+  const arrayProjects = fromI18n.map((item) => {
+    const withAsset = projectsData.find((p) => p.name === item.name)
+    return withAsset ? { ...item, image: withAsset.image } : item
+  })
 
   return (
     <section className='section projects' id='projects'>
